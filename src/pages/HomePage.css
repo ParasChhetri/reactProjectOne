@@ -1,0 +1,99 @@
+.gradientText {
+    background-image: linear-gradient(
+        to right,
+        rgb(40, 55, 221),
+        rgb(69, 229, 208),
+        rgb(255,0,255),
+        red
+    );
+    background-clip: text;
+    color: transparent;
+}
+
+.neoText {
+    text-shadow: -6px -6px 5px white,
+    0 6px 6px 0 rgba(0, 0, 0, 0.561);
+}
+.homeHeadin {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.justImage {
+    /* border: .375rem dotted red; */
+    height: auto;
+    width: 100%;
+    margin-top: 1.5rem;
+}
+
+.respImg {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.aboutImage {
+    /* border: 2px solid blue; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.popularCatoons {
+    margin-top: 3.8rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3.375rem;
+}
+
+.card {
+    margin: 3rem;
+    padding: 8px;
+    height: auto;
+    width: auto;
+    border-radius: 16px;
+    background-color: rgba(221, 211, 211, 0.885);
+    box-shadow: -6px -6px 6px white,
+    0 6px 6px 0 rgba(0, 0, 0, 0.561);
+}
+
+.cardDiscription {
+    padding: 1rem;
+    margin-left: 0.5rem;
+    text-align: justify;
+}
+
+.cardBtn {
+    margin: 1rem;
+    padding: .75rem;
+    font-weight: 800;
+    font-size: 1rem;
+    border: none;
+    border-radius: 16px;
+}
+
+.popyeImg {
+    height: auto;
+    width: 100%;
+}
+
+.cardHeading {
+    margin: .75rem;
+}
+
+.threeGridBox {
+    margin-top: 1.4rem;
+}

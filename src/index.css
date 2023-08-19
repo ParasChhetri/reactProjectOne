@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white !important;
+}
+.dark-mode {
+  background-color: rgba(0, 0, 0, 0.837);
+  color: white;
+
+  .card {
+    margin: 3rem;
+    padding: 8px;
+    height: auto;
+    width: auto;
+    border-radius: 16px;
+    background-color: rgb(0, 0, 0);
+    box-shadow: none;
+  }
+}
+
+body {
+  background-color: rgba(219, 214, 214, 0.893);
+} 

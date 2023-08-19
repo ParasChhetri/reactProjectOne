@@ -1,0 +1,25 @@
+footer {
+    position: relative;
+    margin-top: auto;
+    bottom: 0;
+}
+
+.footerOfPage {
+    height: auto;
+    width: 100%;
+    background-image: linear-gradient(
+        to right,
+        rgb(40, 221, 40),
+        rgb(69, 229, 208)
+    );
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerOfPage h2 {
+    font-size: 1.6rem;
+    color: white;
+    margin-left: 1rem;
+    padding-top: 1rem;
+}
